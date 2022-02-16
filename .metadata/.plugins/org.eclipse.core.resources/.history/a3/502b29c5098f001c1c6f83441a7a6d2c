@@ -1,0 +1,19 @@
+package com.capgmini.helloworld;
+
+class Student
+{
+private String name;
+private int id;
+private String subject;
+private int fees;
+}
+
+
+public class MyStudent {
+
+	public static void main(String args[])
+	{
+		
+	}
+	
+}

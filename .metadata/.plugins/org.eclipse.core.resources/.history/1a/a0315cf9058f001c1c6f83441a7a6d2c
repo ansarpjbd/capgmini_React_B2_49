@@ -1,0 +1,25 @@
+package com.capgmini.helloworld;
+
+
+//Package--it will be first line of class
+        //it will tell class belong to which package 
+
+//Rule- Public class name and filename should be same
+ //One Java File can have multiple classes 
+//it no access modifer is given then by default it will default
+//a class can contain variable , method ,nested class
+//class--class is blueprint which help us to show the  
+class Person
+{
+//variable
+//method
+//nested class	
+	
+	
+}
+
+
+public class MyClass {
+
+	Demo 
+}

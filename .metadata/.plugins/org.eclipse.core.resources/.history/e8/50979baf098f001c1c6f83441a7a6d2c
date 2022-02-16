@@ -1,0 +1,16 @@
+package com.capgmini.helloworld;
+
+class Student
+{
+	
+}
+
+
+public class MyStudent {
+
+	public static void main(String args[])
+	{
+		
+	}
+	
+}

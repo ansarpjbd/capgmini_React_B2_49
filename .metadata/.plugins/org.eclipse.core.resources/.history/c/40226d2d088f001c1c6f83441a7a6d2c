@@ -1,0 +1,74 @@
+package com.capgmini.helloworld;
+
+//Package--it will be first line of class
+//it will tell class belong to which package 
+
+//Rule- Public class name and filename should be same
+//One Java File can have multiple classes 
+//it no access modifer is given then by default it will default
+//a class can contain variable , method ,nested class
+//class--class is blueprint which help us to show the  
+class Person {
+//variable
+	private String name;
+	private int age;
+//method
+//nested class	
+
+//set the value to properties
+//setter method
+//Constructor
+//Using user defined Method
+
+//method
+//Constructor--it is used to set the value of object
+//it is special method
+//because it has the same name as class name
+//You do not have call the constructor 
+//
+//default constructor
+//it is created by the compiler 
+	Person() {
+
+	}
+
+	// Constructor with parameters
+	// this is keyword
+	// this--used to access the method and member of same class
+	
+	//Method with same name and different parameters
+	  //method overloading
+	  //Constructor Overloading
+	Person(String name, int age) {
+		this.name = name;
+		this.age = age;
+	}
+
+	Person(String name) {
+		this.name = name;
+	}
+
+	Person(int age) {
+		this.age = age;
+	}
+
+	
+public void print()
+{
+	System.out.println("Name "+this.name);
+	System.out.println("age "+this.age);
+}
+	
+}
+
+public class MyClass {
+
+	public static void main(String args[]) {
+		// Object
+		// Ansar --Object is any real world entity which has same attribute and
+		// behaviour
+
+		Person ansar = new Person("Ansar", 35);
+		// ansar.age=10;
+	}
+}

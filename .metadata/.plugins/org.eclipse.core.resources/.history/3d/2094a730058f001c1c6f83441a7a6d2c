@@ -1,0 +1,14 @@
+package com.capgmini.helloworld;
+
+
+//Package--it will be first line of class
+        //it will tell class belong to which package 
+
+//Rule- Public class name and filename should be same
+
+
+
+
+public class MyClass {
+
+}
