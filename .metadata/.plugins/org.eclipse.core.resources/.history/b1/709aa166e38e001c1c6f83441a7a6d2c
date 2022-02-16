@@ -1,0 +1,61 @@
+//Package--Arrange  the program or classes 
+//Keyword --Special Word in java (which we cannot use in our application)
+//always the first line of application
+//keyword
+package 
+//package name 
+com.capgmini.helloworld;
+
+
+//keyword --access Specifier 
+//public
+//private
+//default
+//protected 
+public 
+
+//keyword
+//used to declare the class
+class 
+
+//class name
+HelloWorld 
+//body of class
+//block
+{
+	
+//Method in java --it is like a function
+//Main Method		
+public static void main(String args[])
+{
+
+	//Print on the console
+	System.out.println("Hello Java");
+}
+	
+	
+	//static block
+	/*
+	 * static() {
+	 * 
+	 * 
+	 * }
+	 */
+	
+	/*
+	 * if() {
+	 * 
+	 * }
+	 */
+	//while block
+	/*
+	 * while(true) {
+	 * 
+	 * }
+	 */
+}
+
+
+
+//System.out.println("hello");
+

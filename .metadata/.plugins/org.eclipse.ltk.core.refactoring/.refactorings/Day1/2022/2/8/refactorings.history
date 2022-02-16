@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename package &apos;com.capgmini.HelloWorld&apos; to &apos;com.capgmini.helloworld&apos;&#x0D;&#x0A;- Original project: &apos;Day1&apos;&#x0D;&#x0A;- Original element: &apos;Day1/src/com.capgmini.HelloWorld&apos;&#x0D;&#x0A;- Renamed element: &apos;Day1/src/com.capgmini.helloworld&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename package &apos;com.capgmini.HelloWorld&apos;" flags="589830" hierarchical="false" id="org.eclipse.jdt.ui.rename.package" input="/src&lt;com.capgmini.HelloWorld" name="com.capgmini.helloworld" qualified="false" references="true" stamp="1644985519888" textual="false" version="1.0"/>
+</session>
