@@ -53,7 +53,10 @@ public class MyString {
 	     //String start with zero
 		System.out.println(s1.charAt(1));
 		//it will combine two string class
+		
 		s1=s1.concat(" Java");
+		
+		
 		System.out.println(s1);
 		
 		System.out.println(s1.startsWith("H"));
