@@ -52,11 +52,22 @@ import java.io.IOException;
 //try 
 //catch block
 
+//Try and Catch
+//you can handle the exception within method
+
+
+//Throw
+//Throws
 public class MyException {
 
 	public static void main(String args[]) 
 	{
 	
+
+	}
+	
+	public void myException()
+	{
 		
 //if code execute fine then try block will execute 
 		
