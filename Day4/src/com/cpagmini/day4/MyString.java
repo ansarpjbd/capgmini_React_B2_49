@@ -4,25 +4,41 @@ public class MyString {
 	
 	public static void main(String args[])
 	{
+		
+		char cc[]= {'H','e','l','l','0'};
+		//old way used to store the word
+		//need char array
+		//array is limited with insert and update and delete
+		
+		//String --many method
+		//StringBuffer
+		//StringBuilder
+		
+		
 		//it is class in java
 		//there are many method belong to class which we can use
 		//String is final class-it means it can not be extends
 		
 		//first way by creating the string class object 
-		String s1=new String("Hello");
+		//heap memory
+		String s1 = new String("Hello");
 		
 		//by creating the string class variable
+		//Stack memory
+		//String pool constant
+		//primitive
 		String s2="Hello";
 		
+		String s3="Hello";
 		//compare and see both are equal
 		
 		//primitive use ==
 		//it will care the value
-		//it will compare the datatype also
+		//it will compare the data type also
 		//String equal method
 		//value are equal
 		//but both behave as different data type
-		if(s1==s2)
+		if(s2==s3)
 		{
 			System.out.println("equal");
 		}
@@ -46,6 +62,11 @@ public class MyString {
 		//if first string is greater than second it will return positive number with difference
         //if first String is less than second number 
 		//return diff in -1
+		
+		//str>str2
+		//Hello >hello-- (+)
+		//Str <str   -- (-)
+		//str==str2  =(0)
 		System.out.println(s1.compareTo(s2));
 		//System.out.println(s1.);
 		
