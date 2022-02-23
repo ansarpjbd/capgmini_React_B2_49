@@ -24,7 +24,18 @@ public class MyCustomException {
 	public static void main(String args[]) {
 		Scanner sc = new Scanner(System.in);
 		int num = sc.nextInt();
+		//String 
+		//sc.nextLine();
 
+		//int
+		//sc.nextInt();
+		
+		//double
+		//sc.nextDouble();
+		
+		//boolean
+		//sc.nextBoolean();
+		
 		if (num > 0) {
 			System.out.println(num);
 		} else {
